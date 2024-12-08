@@ -1,5 +1,3 @@
-import Image from "next/image";
-import ShopImage from "./shophero.png";
 export default function Products(){
 
     interface Card{
