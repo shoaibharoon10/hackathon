@@ -1,5 +1,6 @@
-export default function Products(){
+import Image from "next/image";
 
+export default function Products(){
     interface Card{
         name: string,
         age: number,
