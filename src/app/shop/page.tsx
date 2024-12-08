@@ -1,9 +1,6 @@
 import Image from "next/image"
 import ShopImage from "@/app/assets/shophero.png"
-import { IoIosArrowForward } from "react-icons/io";
-import Products from "@/app/components/Products";
 import BlowHero from "@/app/components/ShopBlowHero";
-
 
 export default function ShopHero(){
 
