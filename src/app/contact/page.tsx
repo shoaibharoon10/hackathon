@@ -6,8 +6,7 @@ import { TbPhoneFilled } from "react-icons/tb";
 import { TbClockHour4Filled } from "react-icons/tb";
 
 
-
-export default function () {
+const contact = () => {
   return (
     <>
       <div className="relative">
@@ -117,3 +116,5 @@ export default function () {
     </>
   );
 }
+
+export default contact;
