@@ -1,7 +1,8 @@
 import Image from "next/image";
 import InnerPeace from "@/assets/inner.png" 
 import SideInner from "@/assets/Sideinner.png" 
-export default function () {
+
+const Slides = () => {
   return (
     <>
       <div className="slideSection bg-[#FCF8F3]">
@@ -26,3 +27,5 @@ export default function () {
     </>
   );
 }
+
+export default Slides;
