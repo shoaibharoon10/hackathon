@@ -6,8 +6,7 @@ import { TbPhoneFilled } from "react-icons/tb";
 import { TbClockHour4Filled } from "react-icons/tb";
 import Banner from "../components/Banner";
 
-
-export default function () {
+const ContactPage = () => {
   return (
     <>
       <div className="relative">
@@ -93,3 +92,4 @@ export default function () {
     </>
   );
 }
+export default ContactPage;
