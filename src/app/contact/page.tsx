@@ -4,10 +4,6 @@ import { IoIosArrowForward } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { TbPhoneFilled } from "react-icons/tb";
 import { TbClockHour4Filled } from "react-icons/tb";
-import Trophy from "@/app/assets/trophy.png";
-import Waranty from "@/app/assets/guarantee.png";
-import Shipping from "@/app/assets/shipping.png";
-import Support from "@/app/assets/support.png";
 import Banner from "../components/Banner";
 
 
