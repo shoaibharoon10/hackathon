@@ -2,20 +2,222 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+	font-family: poppins;
+	src:local(poppins);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: bordex-box;
+	font-family: poppins;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+   /* --------------------- NAVBAR ----------------------------- */
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem ;
+
+}
+
+.navbar .head{
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  gap: 2rem;
+}
+
+.navbar .icons{
+  display: flex;
+  /* justify-content: space-between;
+  align-items: center; */
+  gap: 2rem;
+
+}
+
+ /* ---------------------- HERO SECTION ----------------------------------- */
+.heroImage{
+  /* width: 50rem;
+  height: 63rem; */
+}
+.heroText {
+  width: 643px;
+  height: 443px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  border-radius: 10px;
+  padding: 64px;
+  line-height: 2rem;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: flex-start; /* Align items at the top */
+  gap: 16px; /* Space between items */
+}
+
+.heroText .buyBtn {
+  font-size: 16px;
+  background-color: #b88e2f;
+  padding: 8px 48px;
+  color: white;
+  align-self: flex-start; /* Align button to the start of the container */
+}
+
+
+
+/* .heroText{
+
+  width: 643px;
+  height: 443px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  flex-wrap: wrap ;
+  border-radius: 10px;
+  padding: 64px;
+  line-height: 2rem;
+} */
+
+.heroText h6{
+  font-weight: bold;
+}
+
+.heroText h3{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: #B88E2F;
+}
+
+/* .heroText p{
+  line-height: none;
+} */
+
+/* .heroText .buyBtn{  
+  background-color: #B88E2F;
+  padding: 8px 48px 8px 48px;
+  color: white;
+} */
+
+
+/* ---------------------------- SUB TEXT ---------------------------- */
+.subText {
+  text-align: center;
+}
+.subText h3 {
+  color: #292826;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.imgArea{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+
+}
+.imgArea h6{
+  text-align: center;
+  font-weight: bold;
+}
+
+/* -------------------cardsss -------------------------------- */
+
+.cardsContainer{
+  
+    display: grid;
+    /* grid-template-columns: ; */
+    grid-template-columns:  repeat(4, 1fr);    
+    gap: 0.1rem; 
+    padding: 20px; 
+    justify-items: center;
+
+    /* display: flex; */
+}
+
+
+.productBtn{
+  align-self: center;
+}
+
+.slideSection{
+  display: grid;
+  /* grid-template-columns: ; */
+  grid-template-columns:  repeat(3, 1fr);    
+  /* gap: 0;  */
+  padding: 2rem; 
+  justify-items: center;
+  /* align-items: center; */
+}
+
+
+/* ------------------------------ SHOP Routing------------------------------------------- */
+
+
+.shopsect h3, .shopPara{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+.shopsect .shopPara{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+}
+
+
+
+/* -------------------------- SHOW BLOW BAAR----------------------------------------------- */
+
+.showBlowBar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.showBlowBar .firstRow{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.showBlowBar .secondRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  gap: 1rem;
+}
+
+.footer input{
+  /* border: none; */
+  outline: none;
+
+}
+
+
+footer hr {
+  margin: auto;
+  margin-top: 15px;
+  width: 1000px;
+}
+
+footer .para p{
+  font-weight: 400;
+  position: absolute;
+  left: 13%;
+  padding: 2rem 0rem;
 }

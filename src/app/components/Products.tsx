@@ -1,6 +1,7 @@
-import Image from "next/image";
-
+// import Image from "next/image";
+// import Bedroom from "../public/bedroom.png"
 export default function Products(){
+
     interface Card{
         name: string,
         age: number,
@@ -77,7 +78,7 @@ export default function Products(){
             {data.map((card, index) => (
 
             <div className="card" key={index} style={{ width: "15rem" }}>
-                <Image
+                <img
                   src={card.image}
                   style={{ width: "18rem", height: "18rem" }}
                   className="card-img-top"

@@ -1,6 +1,8 @@
 import Image from "next/image"
 import ShopImage from "@/app/assets/shophero.png"
+import { IoIosArrowForward } from "react-icons/io";
 import BlowHero from "@/app/components/ShopBlowHero";
+
 
 export default function ShopHero(){
 
@@ -141,11 +143,11 @@ export default function ShopHero(){
             {data.map((card, index) => (
 
             <div className="card" key={index} style={{ width: "15rem" }}>
-                <img
+                <Image
                   src={card.image}
                   style={{ width: "18rem", height: "18rem" }}
                   className="card-img-top"
-                //   alt={card.name}
+                  alt={card.name}
                 />
                 <div className="card-body">
                   <h5 className="card-title" style={{ fontWeight: "bold" }}>
