@@ -4,9 +4,14 @@ import { IoIosArrowForward } from "react-icons/io";
 import { FaLocationDot } from "react-icons/fa6";
 import { TbPhoneFilled } from "react-icons/tb";
 import { TbClockHour4Filled } from "react-icons/tb";
+import Trophy from "@/app/assets/trophy.png";
+import Waranty from "@/app/assets/guarantee.png";
+import Shipping from "@/app/assets/shipping.png";
+import Support from "@/app/assets/support.png";
+import Banner from "../components/Banner";
 
 
-const contact = () => {
+export default function () {
   return (
     <>
       <div className="relative">
@@ -87,34 +92,8 @@ const contact = () => {
         </div>
         
       </div>
-      <div className=" mt-5 mb-5 flex justify-evenly items-center p-2 w-[100%] h-[8rem] bg-[#F9F1E7]">
-        
-        < div className="">
-    
-        <Image src="/Group.png" width={40} height={40} alt="Picture of the author" />
-        
-          <h4 className="font-bold">High Quality</h4>
-          <p>crafted from top materials</p>
-        </div>
-        <div>
-        <Image src="/warr.png" width={40} height={40} alt="Picture of the author" />
-          <h4 className="font-bold">Warranty Protection</h4>
-          <p>Over 2 years</p>
-        </div>
-        <div>
-        <Image src="/vector.png" width={40} height={40} alt="Picture of the author" />
-          <h4 className="font-bold">Free Shipping</h4>
-          <p>Order over 150 $</p>
-        </div>
-        <div>
-        <Image src="/customer.png" width={40} height={40} alt="Picture of the author" />
-          <h4 className="font-bold">24 / 7 Support</h4>
-          <p>Dedicated support</p>
-        </div>
-      </div>
+      <Banner />
     
     </>
   );
 }
-
-export default contact;

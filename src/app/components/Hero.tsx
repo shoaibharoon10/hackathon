@@ -3,8 +3,8 @@ import HeroImage from "@/app/assets/Hero.jpg";
 export default function Hero() {
   return (
     <>
-      {/* w90rem h 63 */}
-      <div className="heroImage mb-8">
+      {/* hero */}
+      <div className="heroImage mb-8 ">
         <Image
           src={HeroImage}
           width={1440}

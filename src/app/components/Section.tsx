@@ -9,7 +9,7 @@ const Section1 = () => {
   return (
     <div>
       {/* Section 1 */}
-      <div className="relative mt-12 w-full max-w-screen-lg h-auto bg-white mx-auto px-4 sm:px-6 md:px-8">
+      <div className="relative mt-12 w-full  bg-white mx-auto">
 
         {/* First div for Heading and Paragraph */}
         <div className="text-center">
