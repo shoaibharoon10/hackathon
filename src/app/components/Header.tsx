@@ -11,7 +11,7 @@ export default function Header() {
     <>
       <div className="navbar w-[1440px] h-[100px]">
         <div className="logo ">
-        <Image src={Logo} width={185} height={41} alt="Picture of the author" />
+        <Image src={Logo} width={185} height={41} alt="Picture of the author" className="cursor-pointer" />
         </div>
         <div className="navbtns flex">
           

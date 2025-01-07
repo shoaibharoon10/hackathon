@@ -7,9 +7,9 @@ import Bedroom from "@/app/assets/Bedroom.png";
 
 const Section1 = () => {
   return (
-    <div>
+    <div className="w-[1440px] pl-[131px]">
       {/* Section 1 */}
-      <div className="relative mt-12 w-full  bg-white mx-auto">
+      <div className="relative mt-12 w-[1183px]  bg-white">
 
         {/* First div for Heading and Paragraph */}
         <div className="text-center">
@@ -29,9 +29,9 @@ const Section1 = () => {
             width={381}
             height={480}
             alt="Dining"
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover cursor-pointer"
             />
-            <h2 className="mt-2 ">Dining</h2>
+            <h2 className="mt-2 text-[#333333] text-base font-semibold leading-9">Dining</h2>
           </div>
 
           {/* Second Image with Name */}
@@ -41,9 +41,9 @@ const Section1 = () => {
               width={381}
               height={480}
               alt="Living"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover cursor-pointer"
             />
-            <p className="mt-2">Living</p>
+            <h2 className="mt-2 text-[#333333] text-base font-semibold leading-9 ">Living</h2>
           </div>
 
           {/* Third Image with Name */}
@@ -53,9 +53,9 @@ const Section1 = () => {
               width={381}
               height={480}
               alt="Bedroom"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-cover cursor-pointer"
             />
-            <p className="mt-2">Bedroom</p>
+            <p className="mt-2 text-[#333333] text-base font-semibold leading-9">Bedroom</p>
           </div>
         </div>
       </div>
